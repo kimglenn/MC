@@ -1,0 +1,45 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ff000000; // 배경색
+  font-family: "Bangers", cursive; // 기본 폰트 설정
+}
+
+h2 {
+  font-family: "Bangers", cursive;
+  font-size: 1.5rem; // 제목 크기
+  color: #e2d9d9; // 제목 색상
+  margin-bottom: 10px; // 제목 아래 여백
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); // 텍스트 그림자
+ // background-color: hsla(0, 93%, 47%, 0.114); // 버튼 배경색
+  padding: 1px 100px; // 패딩 추가
+  transition: color 0.3s ease;
+  
+}
+
+input {
+  
+  width: 300px; // 입력 필드 너비
+  padding: 10px; // 입력 필드 패딩
+  margin: 10px 0; // 입력 필드 위 아래 여백
+  border: 10px solid #ecd908; // 입력 필드 테두리
+  border-radius: 0px; // 입력 필드 모서리 둥글게
+}
+
+button {
+  width: 150px; // 버튼 너비
+  padding: 10px; // 버튼 패딩
+  margin: 10px 0; // 버튼 위 아래 여백
+  border: #ff0000; // 버튼 테두리 없애기
+  border-radius: 0px; // 버튼 모서리 둥글게
+  background-color: #ffdd00; // 버튼 배경색
+  color: rgb(0, 0, 0); // 버튼 글자 색상
+  cursor: pointer; // 커서 포인터로 변경
+}
+
+button:hover {
+  background-color: #dfa123; // 버튼 호버 색상
+}
